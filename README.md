@@ -8,7 +8,7 @@ cmsenv
 git init
 git clone -b 80X https://github.com/srimanob/MonopoleAnalysis
 cd MonopoleAnalysis
-git checkout tags/V53X_V06D_05
+git checkout tags/80X_pre2
 scram b
 cd MonojetAnalysis/NtupleAnalyzer
 </code></pre>
