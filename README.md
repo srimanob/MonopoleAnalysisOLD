@@ -8,7 +8,7 @@ cmsenv
 git init
 git clone -b 80X https://github.com/srimanob/MonopoleAnalysis
 cd MonopoleAnalysis
-git checkout tags/80X_pre2
+git checkout tags/80X_pre2 [No need, just checkout the last one in 80X]
 scram b
 cd MonojetAnalysis/NtupleAnalyzer
 </code></pre>
@@ -24,6 +24,6 @@ git checkout 80X
 git add [ files that you edited ]
 git commit -m 'comment'
 git push origin 80X
-git tag -a [version] -m 'comment'
+git tag -a [version] -m 'comment' [check existing tags first]
 git push --tags
 </code></pre>
