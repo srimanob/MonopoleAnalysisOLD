@@ -12,4 +12,6 @@
 <use name="DataFormats/TrackerRecHit2D"/>
 <use name="RecoTracker/DeDx"/>
 <use name="Geometry/CommonDetUnit"/>
-<flags EDM_PLUGIN="1"/>
+<library file="*.cc" name="MonopoleAnalysisNtupleAnalyzerPlugins">
+   <flags EDM_PLUGIN="1"/>
+</library>
