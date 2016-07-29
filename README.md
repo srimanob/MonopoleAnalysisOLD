@@ -3,14 +3,14 @@ How to checkout the package for analysis
 --------------
 Please use the fresh CMSSW, not recycle from the ntuple maker.
 <pre><code>cmsrel CMSSW_8_0_13
-cd CMSSW_8_0_13
+cd CMSSW_8_0_13/src
 cmsenv
 git init
 git clone -b 80X https://github.com/srimanob/MonopoleAnalysis
 cd MonopoleAnalysis
-git checkout tags/80X_pre2 [No need, just checkout the last one in 80X]
+#git checkout tags/80X_pre3 [No need, just checkout the head one in 80X]
+cd NtupleAnalyzer
 scram b
-cd MonojetAnalysis/NtupleAnalyzer
 </code></pre>
 
 How to run analysis code

@@ -1,11 +1,15 @@
 <use name="FWCore/Framework"/>
 <use name="FWCore/PluginManager"/>
 <use name="FWCore/ParameterSet"/>
+<use name="FWCore/Utilities"/>
 <use name="SimDataFormats/GeneratorProducts"/>
 <use name="DataFormats/HepMCCandidate"/>
 <use name="DataFormats/TrackReco"/>
+<use name="DataFormats/Common"/>
 <use name="TrackingTools/Records"/>
 <use name="TrackingTools/TransientTrack"/>
+<use name="TrackingTools/PatternTools"/>
 <use name="DataFormats/TrackerRecHit2D"/>
 <use name="RecoTracker/DeDx"/>
+<use name="Geometry/CommonDetUnit"/>
 <flags EDM_PLUGIN="1"/>
