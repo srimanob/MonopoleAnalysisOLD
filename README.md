@@ -7,11 +7,12 @@ cd CMSSW_8_0_13/src
 cmsenv
 git init
 git clone -b 80X https://github.com/srimanob/MonopoleAnalysis
-cd MonopoleAnalysis
-#git checkout tags/80X_pre3 [No need, just checkout the head one in 80X]
-cd NtupleAnalyzer
+cd MonopoleAnalysis/NtupleAnalyzer
 scram b
 </code></pre>
+
+If you want to checkout specific tag
+git checkout tags/80X_pre5 [No need in general. Just checkout the head one in 80X]
 
 How to run analysis code
 --------------
@@ -19,8 +20,8 @@ How to run analysis code
 
 How to commit new version of code
 --------------
-<pre><code>After "git checkout"
-git checkout 80X
+After you checkout the head, and make modification
+<pre><code>git checkout 80X
 git add [ files that you edited ]
 git commit -m 'comment'
 git push origin 80X
